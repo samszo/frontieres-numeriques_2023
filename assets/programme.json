@@ -1,0 +1,628 @@
+{
+    "programme": {
+        "titre": "Ho le beau Programme du colloque",
+        "jours": [{
+            "id": "j0",
+            "debut": "2023-06-06T16:00:00"
+        }, {
+            "id": "j1",
+            "debut": "2023-06-07T09:30:00"
+        }, {
+            "id": "j2",
+            "debut": "2023-06-08T08:00:00"
+        }, {
+            "id": "j3",
+            "debut": "2023-06-09T10:00:00"
+        }],
+        "sessions": [{
+            "id": "sAc",
+            "titre": "Accueil et Inscriptions",
+            "jour": "j0",
+            "ordre": 1
+        }, {
+            "id": "sOuv",
+            "titre": "Ouverture du colloque",
+            "jour": "j1",
+            "ordre": 1
+        }, {
+            "id": "sPause1",
+            "titre": "Pause Café",
+            "jour": "j1",
+            "ordre": 2
+        }, {
+            "id": "sPause2",
+            "titre": "Pause Café",
+            "jour": "j1",
+            "ordre": 6
+        }, {
+            "id": "sDoc",
+            "titre": "Session : Frontières numériques documentaires",
+            "jour": "j1",
+            "speakers": [{
+                "nom": "Abderrazak MKADMI",
+                "role": "Modérateur",
+                "affiliation": "Sultan Qaboos University, Oman"
+            }],
+            "ordre": 3
+        }, {
+            "id": "sRepas1",
+            "titre": "Repas",
+            "jour": "j1",
+            "ordre": 4
+        }, {
+            "id": "sFrac",
+            "titre": "Session : Frontières numériques : fractures et conflits",
+            "jour": "j1",
+            "speakers": [{
+                "nom": "Olivier NANNIPIERI",
+                "role": "Modérateur",
+                "affiliation": "IMSIC - Université de Toulon, France"
+            }],
+            "ordre": 5
+        }, {
+            "id": "sExplo1",
+            "titre": "Session : Frontières numériques in progress",
+            "jour": "j3",
+            "speakers": [{
+                "nom": "Serge BOUCHARDON",
+                "role": "Modérateur",
+                "affiliation": "Université de technologie de Compiègne, France"
+            }],
+            "ordre": 2
+        }, {
+            "id": "sAc1",
+            "titre": "Accueil et Inscriptions",
+            "jour": "j2",
+            "ordre": 0
+        }, {
+            "id": "sVer",
+            "titre": "Session : Frontières numériques des vérités",
+            "jour": "j2",
+            "speakers": [{
+                "nom": "Samuel Szoniecky",
+                "role": "Modérateur",
+                "affiliation": "Paragraphe - Université de Paris 8, France"
+            }],
+            "ordre": 1
+            }, {
+                "id": "sPause3",
+                "titre": "Pause Café",
+                "jour": "j2",
+                "ordre": 2
+            }, {
+            "id": "sOrga",
+            "titre": "Session : Frontières numériques des organisations",
+            "jour": "j2",
+            "speakers": [{
+                "nom": "Renée BOURASSA",
+                "role": "Modérateur",
+                "affiliation": "Université Laval, Canada"
+            }],
+            "ordre": 3
+        }, {
+            "id": "sRepas2",
+            "titre": "Repas",
+            "jour": "j2",
+            "ordre": 4
+        }, {
+            "id": "sGen",
+            "titre": "Session : Frontières numériques génératives",
+            "jour": "j2",
+            "speakers": [{
+                "nom": "Fabien RICHERT",
+                "role": "Modérateur",
+                "affiliation": "UQAM, Canada"
+            }],
+            "ordre": 5
+        }, {
+            "id": "sPause4",
+            "titre": "Pause café",
+            "jour": "j2",
+            "ordre": 6
+        }, {
+            "id": "sArtTech",
+            "titre": "Session : Frontières numériques entre arts & technologies",
+            "jour": "j2",
+            "speakers": [{
+                "nom": "Chu-yin CHEN",
+                "affiliation": "INREV - Université Paris 8, France",
+                "role": "Modérateur"
+            }],
+            "ordre": 7
+        }, {
+            "id": "sLim",
+            "titre": "Session : Limites des Frontières numériques",
+            "jour": "j3",
+            "speakers": [{
+                "nom": "Jean-marc LARRUE",
+                "affiliation": "Université de Montréal, Canada",
+                "role": "Modérateur"
+            }],
+            "ordre": 1
+        }, {
+            "id": "sRepas3",
+            "titre": "Repas",
+            "jour": "j3",
+            "ordre": 3
+        }, {
+            "id": "sExtra",
+            "titre": "Activités sociales",
+            "jour": "j3",
+            "speakers": [{
+                "nom": "Malek GHENIMA",
+                "role": "Organisateur"
+            }],
+            "ordre": 4
+        }],
+        "interventions": [{
+                "titre": "",
+                "session": "sAc",
+                "ordre": 2,
+                "duree": 120
+            }, {
+                "speakers": [{
+                        "nom": "Malek GHENIMA",
+                        "role": "Président du Comité d’Organisation",
+                        "affiliation": "Ecole Supérieure de Commerce de Tunis - Université de Manouba, Tunisie"
+                    },
+                    {
+                        "nom": "Imad SALEH",
+                        "role": "Président du Colloque",
+                        "affiliation": "Paragraphe - Université de Paris 8, France"
+                    },
+                    {
+                        "nom": "Samuel SZONIECKY",
+                        "role": "Président du Comité Programme",
+                        "affiliation": "Paragraphe - Université de Paris 8, France"
+                    }
+                ],
+                "titre": "Allocution de bienvenue",
+                "session": "sOuv",
+                "ordre": 1,
+                "duree": 30
+            }, {
+                "titre": "",
+                "session": "sPause1",
+                "ordre": 2,
+                "duree": 30
+            }, {
+                "id": 4361,
+                "speakers": [{
+                    "nom": "Stephane CARO",
+                    "affiliation": "MICA UR 4426 - Axe E3D, Université Bordeaux Montaigne, France"
+                }],
+                "titre": "A la frontière du contexte dans les documents numériques.",
+                "session": "sDoc",
+                "ordre": 1,
+                "duree": 10
+            }, {
+                "id": 1253,
+                "speakers": [{
+                        "nom": "Arnaud LABORDERIE",
+                        "affiliation": "BnF / Paragraphe, Université Paris 8, France"
+                    },
+                    {
+                        "nom": "Lucie TERMIGNON",
+                        "affiliation": "BnF, France"
+                    }
+                ],
+                "titre": "Découvrabilité et recommandation des collections numériques. Enjeux et stratégie pour Gallica.",
+                "session": "sDoc",
+                "ordre": 2,
+                "duree": 20
+            }, {
+                "id": 633,
+                "speakers": [{
+                    "nom": "Elia VALLECALLE",
+                    "affiliation": "Università di Corsica, France"
+                }],
+                "titre": "Valorisation patrimoniale via le numérique : concevoir une expérience utilisateur à vivre, le cas du webdocumentaire E Strade di San Michele in Balagna",
+                "session": "sDoc",
+                "ordre": 3,
+                "duree": 20
+            }, {
+                "titre": "Table ronde",
+                "abstract": "Questions aux orateurs, remarques du public",
+                "session": "sDoc",
+                "ordre": 4,
+                "duree": 30
+            }, {
+                "titre": "",
+                "session": "sRepas1",
+                "ordre": 1,
+                "duree": 120
+            }, {
+                "id": 9281,
+                "titre": "Interroger la marge, repenser nos interactions avec le numérique",
+                "speakers": [{
+                        "nom": "Mabrouka EL HACHANI",
+                        "affiliation": "ELICO - Université Lyon3, France"
+                    },
+                    {
+                        "nom": "Isabelle CHOQUET",
+                        "affiliation": "ICHEC Brussels Management School, Belgique"
+                    }
+                ],
+                "session": "sFrac",
+                "ordre": 1,
+                "duree": 20
+            }, {
+                "id": 2228,
+                "titre": "La réinformation : objet frontière de désinformation numérique à identifier",
+                "speakers": [{
+                        "nom": "Stéphanie LUKASIK",
+                        "affiliation": "FHSE-DHUM - University of Luxembourg, Luxembourg"
+                    },
+                    {
+                        "nom": "Alexandra SALOU",
+                        "affiliation": "Université Aix-Marseille, France"
+                    }
+                ],
+                "session": "sFrac",
+                "ordre": 2,
+                "duree": 20
+            }, {
+                "id": 1604,
+                "titre": "De la fracture numérique aux frontières numériques : Pour une meilleure compréhension des inégalités numériques",
+                "speakers": [{
+                        "nom": "Alyse YILMAZ",
+                        "affiliation": "Paragraphe - Université Paris 8, France"
+                    },
+                    {
+                        "nom": "Evelyne CLEMENT",
+                        "affiliation": "Paragraphe - Université Cergy, France"
+                    },
+                    {
+                        "nom": "Khaldoun ZREIK",
+                        "affiliation": "Paragraphe - Université de Paris 8, France"
+                    }
+                ],
+                "session": "sFrac",
+                "ordre": 3,
+                "duree": 20
+            }, {
+                "id": 1111,
+                "titre": "La guerre cognitive : nouvelle frontière de conflits",
+                "speakers": [{
+                        "nom": "Benoît LEBLANC",
+                        "affiliation": "Ecole Nationale Sup. de Cognitique - Bordeaux INP"
+                    },
+                    {
+                        "nom": "Franck RENUCCI",
+                        "affiliation": "Université de Toulon, France"
+                    }
+                ],
+                "session": "sFrac",
+                "ordre": 4,
+                "duree": 20
+            }, {
+                "titre": "Table ronde",
+                "abstract": "Questions aux orateurs, remarques du public",
+                "session": "sFrac",
+                "ordre": 5,
+                "duree": 30
+            }, {
+                "titre": "",
+                "session": "sPause2",
+                "ordre": 2,
+                "duree": 30
+            }, {
+                "id": 7385,
+                "titre": "L’archivage des données foncières en Tunisie : réalité, enjeux et défis de la traçabilité numérique",
+                "speakers": [{
+                        "nom": "Fatma BEN AMOR",
+                        "affiliation": "Université de Paris 8, France"
+                    }, {
+                        "nom": "Abderrazak MKADMI",
+                        "affiliation": "Sultan Qaboos University, Oman"
+                    }
+
+                ],
+                "session": "sExplo1",
+                "ordre": 1,
+                "duree": 10
+            }, {
+                "id": 7376,
+                "titre": "Les frontières des sémiosphères numériques",
+                "speakers": [{
+                    "nom": "Federico BIGGIO",
+                    "affiliation": "Paragraphe - Université de Paris 8, France"
+                }],
+                "session": "sExplo1",
+                "ordre": 2,
+                "duree": 10
+            }, {
+                "id": 2994,
+                "titre": "Cartographier les frontières conceptuelles. Conception et usages de cribles pour enquêter sur les besoins de la médiation culturelle du théâtre",
+                "speakers": [{
+                    "nom": "Gabrielle GODIN",
+                    "affiliation": "Paragraphe - Université de Paris 8, France"
+                }],
+                "session": "sExplo1",
+                "ordre": 3,
+                "duree": 10
+            }, {
+                "id": 7776,
+                "titre": "Le Remote Viewing : « un objet non identifié » aux frontières du numérique",
+                "speakers": [{
+                    "nom": "Pierre-Michael MICALETTI",
+                    "affiliation": "Paragraphe - Université de Paris 8, France"
+                }],
+                "session": "sExplo1",
+                "ordre": 4,
+                "duree": 10
+            }, {
+                "id": 4593,
+                "titre": "Towards a new Trustfull Authentication procedure based on blockchain 2.0 technology for cellular networks",
+                "speakers": [{
+                    "nom": "Meriem BOUKESSASSA",
+                    "affiliation": "Université des Sciences et de la Technologie d'Oran Mohamed-Boudiaf -USTOMB, Algérie"
+                }, {
+                    "nom": "Abdelkader GHAZLI",
+                    "affiliation": "Université de Bechar Tahri Mohamed, Algérie"
+                }, {
+                    "nom": "Adda ALI PACHA",
+                    "affiliation": "Université des Sciences et de la Technologie d'Oran Mohamed-Boudiaf -USTOMB, Algérie"
+                }],
+                "session": "sExplo1",
+                "ordre": 6,
+                "duree": 10
+            }, {
+                "titre": "Table ronde",
+                "abstract": "Questions aux orateurs, remarques du public",
+                "session": "sExplo1",
+                "ordre": 7,
+                "duree": 20
+            }, {
+                "titre": "",
+                "session": "sAc1",
+                "ordre": 2,
+                "duree": 60
+            }, {
+                "id": 9870,
+                "titre": "AKN_Regie : une passerelle entre arts numériques et spectacle vivant",
+                "speakers": [{
+                    "nom": "Georges GAGNERE",
+                    "affiliation": "Université Paris 8, France"
+                }],
+                "session": "sGen",
+                "ordre": 1,
+                "duree": 20
+            }, {
+                "id": 8559,
+                "titre": "La frontière entre réel et fiction dans les récits interactifs pour smartphone",
+                "speakers": [{
+                    "nom": "Serge BOUCHARDON",
+                    "affiliation": "Université de technologie de Compiègne, France"
+                }],
+                "session": "sGen",
+                "ordre": 2,
+                "duree": 20
+            }, {
+                "id": 7205,
+                "titre": "Une nouvelle frontière numérique pour la co-création 3D",
+                "speakers": [{
+                    "nom": "Chu-yin CHEN",
+                    "affiliation": "INREV - Université Paris 8, France"
+                }, {
+                    "nom": "Swann Martinez",
+                    "affiliation": "INREV - Université Paris 8, France"
+                }],
+
+                "session": "sGen",
+                "ordre": 3,
+                "duree": 20
+            }, {
+                "titre": "Table ronde",
+                "abstract": "Questions aux orateurs, remarques du public",
+                "session": "sGen",
+                "ordre": 4,
+                "duree": 30
+            }, {
+                "titre": "",
+                "session": "sPause4",
+                "ordre": 1,
+                "duree": 30
+            }, {
+                "id": 9450,
+                "titre": "Narrer et (re)penser l’ecosystème urbain: Perspectives et limites d’une recherche qualitative en co-design",
+                "speakers": [{
+                    "nom": "Claire NOY",
+                    "affiliation": "Lerass Ceric - Université Paul Valéry Montpellier 3, France"
+                }],
+                "session": "sOrga",
+                "ordre": 1,
+                "duree": 20
+            }, {
+                "id": 2208,
+                "titre": "Confiance à l’égard des e-leaders d’opinion et influence sur les réseaux sociaux : cas des PME au Maghreb",
+                "speakers": [{
+                    "nom": "Amina BOUMAZA",
+                    "affiliation": "Université Aix-Marseille, France"
+                }, {
+                    "nom": "Marie-Pierre FOURQUET ",
+                    "affiliation": "Université Aix-Marseille, France"
+                }],
+                "session": "sOrga",
+                "ordre": 2,
+                "duree": 20
+            }, {
+                "id": 4640,
+                "titre": "Les nouveaux espaces frontières numériques en santé en France : ambivalence et / ou levier de transformation du système de santé ?",
+                "speakers": [{
+                    "nom": "Christian BOURRET",
+                    "affiliation": "Université Gustave Eiffel, France"
+                }, {
+                    "nom": "Jessica GHELLER",
+                    "affiliation": "Université Gustave Eiffel, France"
+                }, {
+                    "nom": "Karim FRAOUA",
+                    "affiliation": "Université Gustave Eiffel, France"
+                }],
+                "session": "sOrga",
+                "ordre": 3,
+                "duree": 10
+            }, {
+                "titre": "Table ronde",
+                "abstract": "Questions aux orateurs, remarques du public",
+                "session": "sOrga",
+                "ordre": 4,
+                "duree": 30
+            }, {
+                "titre": "",
+                "session": "sRepas2",
+                "ordre": 1,
+                "duree": 120
+            }, {
+                "id": 988,
+                "titre": "Frontières du numérique et puissances du faux : le cas des hypertrucages (deepfakes)",
+                "speakers": [{
+                    "nom": "Renée BOURASSA",
+                    "affiliation": "Université Laval, Canada"
+                }, {
+                    "nom": "Fabien RICHERT",
+                    "affiliation": "UQAM, Canada"
+                }, {
+                    "nom": "Jean-marc LARRUE",
+                    "affiliation": "Université de Montréal, Canada"
+                }],
+                "session": "sVer",
+                "ordre": 2,
+                "duree": 20
+            }, {
+                "id": 727,
+                "titre": "Quelles sont les fakes news, théories du complot et controverses qui ont circulé à travers les frontières numériques lors de la première vague de Covid-19 ?",
+                "speakers": [{
+                    "nom": "Marc TANTI",
+                    "affiliation": "IMSIC-SESSTIM-CESPA - Université Aix-Marseille, France"
+                }],
+                "session": "sVer",
+                "ordre": 3,
+                "duree": 20
+            }, {
+                "titre": "Table ronde",
+                "abstract": "Questions aux orateurs, remarques du public",
+                "session": "sVer",
+                "ordre": 4,
+                "duree": 20
+            }, {
+                "titre": "",
+                "session": "sPause3",
+                "ordre": 5,
+                "duree": 30
+
+            }, {
+                "id": 2678,
+                "titre": "À l’interface entre l’art et les technologies : proposition d'un système typing-to-scene",
+                "speakers": [{
+                    "nom": "Lionel LALOUM",
+                    "affiliation": "Université Paris 8, France"
+                }, {
+                    "nom": "Alain LIORET",
+                    "affiliation": "Université Paris 8, France"
+                }],
+                "session": "sArtTech",
+                "ordre": 1,
+                "duree": 10
+            }, {
+                "id": 6063,
+                "titre": "Architecture augmentée de Matsuda, étendue d’Akihiko, métaverse d’Hadid : trois formes extrapolées du cyberespace",
+                "speakers": [{
+                    "nom": "Sami KAMMOUN",
+                    "affiliation": "Ecole Supérieure Des Sciences et Technologies du Design, Université de la Manouba, Tunisie"
+                }],
+                "session": "sArtTech",
+                "ordre": 2,
+                "duree": 10
+            }, {
+                "id": 4793,
+                "titre": "Montage audiovisuel à distance : technologie à multiples usagers et inclusive",
+                "speakers": [{
+                    "nom": "Elianne IVO BARROSO",
+                    "affiliation": "Universidade Federal Fluminense, Brésil"
+                }, {
+                    "nom": "Ivan ATHANAZIO",
+                    "affiliation": "Universidade Federal Fluminense, Brésil"
+                }, {
+                    "nom": "Márcia BESSA",
+                    "affiliation": "Universidade Federal Fluminense, Brésil"
+                }],
+                "session": "sArtTech",
+                "ordre": 3,
+                "duree": 10
+            }, {
+                "titre": "Table ronde",
+                "abstract": "Questions aux orateurs, remarques du public",
+                "session": "sArtTech",
+                "ordre": 4,
+                "duree": 20
+            }, {
+                "id": 2222,
+                "titre": "Aux frontières de la science des ânes Vers une société générative",
+                "speakers": [{
+                    "nom": "Franck RENUCCI",
+                    "affiliation": "Université de Toulon, France"
+                }, {
+                    "nom": "Michel DURAMPART",
+                    "affiliation": "Université de Toulon, France"
+                }, {
+                    "nom": "Sami BEN AMOR",
+                    "affiliation": "Université de Toulon, France"
+                }],
+                "session": "sLim",
+                "ordre": 0,
+                "duree": 10
+            }, {
+                "id": 4372,
+                "titre": "Une expérience sans frontières est-elle crédible ?",
+                "speakers": [{
+                    "nom": "Olivier NANNIPIERI",
+                    "affiliation": "IMSIC - Université de Toulon, France"
+                }, {
+                    "nom": "Swann MARTINEZ",
+                    "affiliation": "XILAM, France"
+                }],
+                "session": "sLim",
+                "ordre": 1,
+                "duree": 20
+            }, {
+                "id": 1682,
+                "titre": "Vie privée en ligne : une frontière paradoxale ?",
+                "speakers": [{
+                    "nom": "Jean Marc MEUNIER",
+                    "affiliation": "Paragraphe - Université Paris 8, France"
+                }],
+                "session": "sLim",
+                "ordre": 2,
+                "duree": 10
+            }, {
+                "id": 720,
+                "titre": "Aux frontières de l’information : le relativisme informationnel et ses enjeux",
+                "speakers": [{
+                    "nom": "Alexandre JOUX",
+                    "affiliation": "Université Aix-Marseille, France"
+                }],
+                "session": "sLim",
+                "ordre": 3,
+                "duree": 20
+            }, {
+                "titre": "Table ronde",
+                "abstract": "Questions aux orateurs, remarques du public",
+                "session": "sLim",
+                "ordre": 4,
+                "duree": 20
+            }, {
+                "titre": "",
+                "session": "sRepas3",
+                "ordre": 1,
+                "duree": 90
+            }, {
+                "titre": "Excursion à Carthage – Sidi Bousaid.",
+                "session": "sExtra",
+                "ordre": 1,
+                "duree": 300
+            }
+
+        ]
+    }
+}
