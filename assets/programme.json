@@ -1,6 +1,6 @@
 {
     "programme": {
-        "titre": "Ho le beau Programme du colloque",
+        "titre": "Programme du colloque Frontières Numériques 2023",
         "jours": [{
             "id": "j0",
             "debut": "2023-06-06T16:00:00"
@@ -79,9 +79,9 @@
             "titre": "Session : Frontières numériques des vérités",
             "jour": "j2",
             "speakers": [{
-                "nom": "Samuel Szoniecky",
+                "nom": "Sylvie LEULEU MERVIEL",
                 "role": "Modérateur",
-                "affiliation": "Paragraphe - Université de Paris 8, France"
+                "affiliation": "DeVisu, INSA Hauts-de-France, Arenberg Creative Mine, Valenciennes, France"
             }],
             "ordre": 1
             }, {
@@ -134,8 +134,8 @@
             "titre": "Session : Limites des Frontières numériques",
             "jour": "j3",
             "speakers": [{
-                "nom": "Jean-marc LARRUE",
-                "affiliation": "Université de Montréal, Canada",
+                "nom": "Michel DURAMPART",
+                "affiliation": "Université de Toulon, France",
                 "role": "Modérateur"
             }],
             "ordre": 1
@@ -160,15 +160,15 @@
                 "ordre": 2,
                 "duree": 120
             }, {
-                "speakers": [{
-                        "nom": "Malek GHENIMA",
-                        "role": "Président du Comité d’Organisation",
-                        "affiliation": "Ecole Supérieure de Commerce de Tunis - Université de Manouba, Tunisie"
-                    },
+                "speakers": [
                     {
                         "nom": "Imad SALEH",
                         "role": "Président du Colloque",
                         "affiliation": "Paragraphe - Université de Paris 8, France"
+                    },{
+                        "nom": "Malek GHENIMA",
+                        "role": "Président du Comité d’Organisation",
+                        "affiliation": "Ecole Supérieure de Commerce de Tunis - Université de Manouba, Tunisie"
                     },
                     {
                         "nom": "Samuel SZONIECKY",
@@ -368,10 +368,23 @@
                 "ordre": 6,
                 "duree": 10
             }, {
+                "id": 2077,
+                "titre": "Big Data boundaries vs Deep Learning, opportunities: mapping the territory",
+                "speakers": [{
+                    "nom": "Nesrine BEN YAHIA",
+                    "affiliation": "Ecole Nationale des Science de l'Informatique - Université de la Manouba, Tunisie"
+                }, {
+                    "nom": "Imen AYARI",
+                    "affiliation": "Ecole Nationale des Science de l'Informatique - Université de la Manouba, Tunisie"
+                }],
+                "session": "sExplo1",
+                "ordre": 7,
+                "duree": 10                
+            }, {
                 "titre": "Table ronde",
                 "abstract": "Questions aux orateurs, remarques du public",
                 "session": "sExplo1",
-                "ordre": 7,
+                "ordre": 8,
                 "duree": 20
             }, {
                 "titre": "",
