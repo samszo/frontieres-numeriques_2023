@@ -145,6 +145,11 @@
             "jour": "j3",
             "ordre": 3
         }, {
+            "id": "sCloture",
+            "titre": "Cloture de la conférence",
+            "jour": "j3",
+            "ordre": 2
+        }, {
             "id": "sExtra",
             "titre": "Activités sociales",
             "jour": "j3",
@@ -625,6 +630,32 @@
                 "ordre": 4,
                 "duree": 20
             }, {
+                "titre": "",
+                "session": "sCloture",
+                "ordre": 2,
+                "duree": 120
+            }, {
+                "speakers": [
+                    {
+                        "nom": "Imad SALEH",
+                        "role": "Président du Colloque",
+                        "affiliation": "Paragraphe - Université de Paris 8, France"
+                    },{
+                        "nom": "Malek GHENIMA",
+                        "role": "Président du Comité d’Organisation",
+                        "affiliation": "Ecole Supérieure de Commerce de Tunis - Université de Manouba, Tunisie"
+                    },
+                    {
+                        "nom": "Samuel SZONIECKY",
+                        "role": "Président du Comité Programme",
+                        "affiliation": "Paragraphe - Université de Paris 8, France"
+                    }
+                ],
+                "titre": "Allocution de cloture du colloque",
+                "session": "sOuv",
+                "ordre": 1,
+                "duree": 30
+            }, {                
                 "titre": "",
                 "session": "sRepas3",
                 "ordre": 1,
