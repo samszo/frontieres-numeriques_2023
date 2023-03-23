@@ -60,16 +60,6 @@
             }],
             "ordre": 5
         }, {
-            "id": "sExplo1",
-            "titre": "Session : Frontières numériques in progress",
-            "jour": "j3",
-            "speakers": [{
-                "nom": "Serge BOUCHARDON",
-                "role": "Modérateur",
-                "affiliation": "Université de technologie de Compiègne, France"
-            }],
-            "ordre": 2
-        }, {
             "id": "sAc1",
             "titre": "Accueil et Inscriptions",
             "jour": "j2",
@@ -134,21 +124,31 @@
             "titre": "Session : Limites des Frontières numériques",
             "jour": "j3",
             "speakers": [{
-                "nom": "Michel DURAMPART",
-                "affiliation": "Université de Toulon, France",
+                "nom": "Christian BOURRET",
+                "affiliation": "Université Gustave Eiffel, France",
                 "role": "Modérateur"
             }],
             "ordre": 1
+            }, {
+                "id": "sExplo1",
+                "titre": "Session : Frontières numériques in progress",
+                "jour": "j3",
+                "speakers": [{
+                    "nom": "Serge BOUCHARDON",
+                    "role": "Modérateur",
+                    "affiliation": "Université de technologie de Compiègne, France"
+                }],
+                "ordre": 2
+            }, {
+            "id": "sCloture",
+            "titre": "Cloture de la conférence",
+            "jour": "j3",
+            "ordre": 3
         }, {
             "id": "sRepas3",
             "titre": "Repas",
             "jour": "j3",
-            "ordre": 3
-        }, {
-            "id": "sCloture",
-            "titre": "Cloture de la conférence",
-            "jour": "j3",
-            "ordre": 2
+            "ordre": 4
         }, {
             "id": "sExtra",
             "titre": "Activités sociales",
@@ -157,7 +157,7 @@
                 "nom": "Malek GHENIMA",
                 "role": "Organisateur"
             }],
-            "ordre": 4
+            "ordre": 5
         }],
         "interventions": [{
                 "titre": "",
@@ -630,11 +630,6 @@
                 "ordre": 4,
                 "duree": 20
             }, {
-                "titre": "",
-                "session": "sCloture",
-                "ordre": 2,
-                "duree": 120
-            }, {
                 "speakers": [
                     {
                         "nom": "Imad SALEH",
@@ -652,9 +647,9 @@
                     }
                 ],
                 "titre": "Allocution de cloture du colloque",
-                "session": "sOuv",
+                "session": "sCloture",
                 "ordre": 1,
-                "duree": 30
+                "duree": 20
             }, {                
                 "titre": "",
                 "session": "sRepas3",

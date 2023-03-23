@@ -59,12 +59,45 @@
 
 </body>
 <script>
+function dateDiff(date1, date2){
+    var diff = {}                           // Initialisation du retour
+    var tmp = date2 - date1;
+ 
+    tmp = Math.floor(tmp/1000);             // Nombre de secondes entre les 2 dates
+    diff.sec = tmp % 60;                    // Extraction du nombre de secondes
+ 
+    tmp = Math.floor((tmp-diff.sec)/60);    // Nombre de minutes (partie entière)
+    diff.min = tmp % 60;                    // Extraction du nombre de minutes
+ 
+    tmp = Math.floor((tmp-diff.min)/60);    // Nombre d'heures (entières)
+    diff.hour = tmp % 24;                   // Extraction du nombre d'heures
+     
+    tmp = Math.floor((tmp-diff.hour)/24);   // Nombre de jours restants
+    diff.day = tmp;
+     
+    return diff;
+}
+
     d3.json("../assets/programme.json").then(data=>{
         let p = data.programme,
         divP = d3.select("#allProgramme"),
         formeHeure = s=>{
+            let dur = dateDiff(s.dateDeb, s.dateFin);
             return s.dateDeb
                 .toLocaleTimeString("fr-FR",{hour: "numeric",minute: "numeric"})
+                .replace(':',' H ')
+                +' -> '+
+                s.dateFin
+                .toLocaleTimeString("fr-FR",{hour: "numeric",minute: "numeric"})
+                .replace(':',' H ')
+                +'<br>Durée : '
+                +dur.hour.toLocaleString('fr-FR', {minimumIntegerDigits: 2,useGrouping: false})
+                +':'
+                +dur.min.toLocaleString('fr-FR', {minimumIntegerDigits: 2,useGrouping: false})  
+        };
+        formeJourHeure = s=>{
+            return s.dateDeb
+                .toLocaleTimeString("fr-FR",{weekday: 'long',year: 'numeric',month: 'long',day: 'numeric',hour: "numeric",minute: "numeric"})
                 .replace(':',' H ')
                 +' -> '+
                 s.dateFin
@@ -161,9 +194,9 @@
                 </table>`;
                 return html;
             })
-        /*affiche la liste des intervention
+        /*affiche liste des interventions
         d3.select('#allInterventions').selectAll('p').data(sortInt.filter(i=>i.speakers)).enter()
-            .append('p').html(i=>'"'+i.id+'";"'+i.duree+'";"'+formeSpeakers(i,false)+'";"'+i.titre+'"');
+            .append('p').html(i=>'"'+formeJourHeure(i)+'";"'+i.duree+'";"'+i.id+'";"'+formeSpeakers(i,false)+'";"'+i.titre+'"');
         */    
         
     });
