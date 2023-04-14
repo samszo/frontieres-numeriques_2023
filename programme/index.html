@@ -50,6 +50,7 @@
 
     <div id="allInterventions"></div>
 
+    <div id="allParticipants"></div>
     
 
     <footer>
@@ -115,6 +116,17 @@ function dateDiff(date1, date2){
                 html += liste ? '</li>' : '';
             });
             html += liste ? '</ul>' : '';
+            return html;
+        };
+        formeParticipants = (i,liste=true)=>{
+            if(!i.speakers)return ''; 
+            let html = '';
+            i.speakers.forEach(s=>{
+                if(s.role) html += '"'+s.role+'",';
+                html += '"'+s.nom+'"'
+                if(s.affiliation) html += ',"'+s.affiliation+'"';
+                html += '<br>';
+            });
             return html;
         };
 
@@ -198,7 +210,12 @@ function dateDiff(date1, date2){
         d3.select('#allInterventions').selectAll('p').data(sortInt.filter(i=>i.speakers)).enter()
             .append('p').html(i=>'"'+formeJourHeure(i)+'";"'+i.duree+'";"'+i.id+'";"'+formeSpeakers(i,false)+'";"'+i.titre+'"');
         */    
-        
+        //affiche liste des interventions
+        d3.select('#allParticipants').selectAll('p').data(sortInt.filter(i=>i.speakers)).enter()
+            .append('p').html(i=>formeParticipants(i));
+        //    
+
+                
     });
 </script>
 </html>
