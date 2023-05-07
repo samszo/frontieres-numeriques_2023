@@ -12,7 +12,7 @@
             "debut": "2023-06-08T08:30:00"
         }, {
             "id": "j3",
-            "debut": "2023-06-09T10:00:00"
+            "debut": "2023-06-09T10:30:00"
         }],
         "sessions": [{
             "id": "sAc",
@@ -29,12 +29,7 @@
             "titre": "Pause Café",
             "jour": "j1",
             "ordre": 2
-        }, {
-            "id": "sPause2",
-            "titre": "Pause Café",
-            "jour": "j1",
-            "ordre": 6
-        }, {
+        },  {
             "id": "sDoc",
             "titre": "Session : Frontières numériques documentaires",
             "jour": "j1",
@@ -50,7 +45,12 @@
             "jour": "j1",
             "ordre": 4
         }, {
-            "id": "sFrac",
+            "id": "sPause2",
+            "titre": "Pause Café",
+            "jour": "j1",
+            "ordre": 6
+        },  {
+                "id": "sFrac",
             "titre": "Session : Frontières numériques : fractures et conflits",
             "jour": "j1",
             "speakers": [{
@@ -99,36 +99,21 @@
             "titre": "Session : Frontières numériques génératives",
             "jour": "j2",
             "speakers": [{
-                "nom": "Fabien RICHERT",
-                "role": "Modérateur",
-                "affiliation": "UQAM, Canada"
+                "nom": "Khaldoun ZREIK",
+                "affiliation": "Laboratoire Paragraphe - Université Paris 8, France",
+                "role": "Modérateur"
             }],
             "ordre": 5
         }, {
-            "id": "sPause4",
-            "titre": "Pause café",
-            "jour": "j2",
-            "ordre": 6
-        }, {
             "id": "sArtTech",
             "titre": "Session : Frontières numériques entre arts & technologies",
-            "jour": "j2",
+            "jour": "j1",
             "speakers": [{
                 "nom": "Chu-yin CHEN",
                 "affiliation": "INREV - Université Paris 8, France",
                 "role": "Modérateur"
             }],
             "ordre": 7
-        }, {
-            "id": "sLim",
-            "titre": "Session : Limites des Frontières numériques",
-            "jour": "j3",
-            "speakers": [{
-                "nom": "Khaldoun ZREIK",
-                "affiliation": "Laboratoire Paragraphe - Université Paris 8, France",
-                "role": "Modérateur"
-            }],
-            "ordre": 1
             }, {
                 "id": "sExplo1",
                 "titre": "Session : Frontières numériques in progress",
@@ -200,17 +185,12 @@
                 "ordre": 1,
                 "duree": 10
             }, {
-                "id": 1253,
+                "id": 1682,
+                "titre": "Vie privée en ligne : une frontière paradoxale ?",
                 "speakers": [{
-                        "nom": "Arnaud LABORDERIE",
-                        "affiliation": "BnF / Paragraphe, Université Paris 8, France"
-                    },
-                    {
-                        "nom": "Lucie TERMIGNON",
-                        "affiliation": "BnF, France"
-                    }
-                ],
-                "titre": "Découvrabilité et recommandation des collections numériques. Enjeux et stratégie pour Gallica.",
+                    "nom": "Jean Marc MEUNIER",
+                    "affiliation": "Paragraphe - Université Paris 8, France"
+                }],
                 "session": "sDoc",
                 "ordre": 2,
                 "duree": 20
@@ -223,13 +203,24 @@
                 }],
                 "session": "sDoc",
                 "ordre": 3,
-                "duree": 20    
+                "duree": 20                    
             }, {
+                "id": 7376,
+                "titre": "Les frontières des sémiosphères numériques",
+                "speakers": [{
+                    "nom": "Federico BIGGIO",
+                    "affiliation": "Paragraphe - Université de Paris 8, France"
+                }],
+                "session": "sDoc",
+                "ordre": 4,
+                "duree": 10
+            }, {
+
                 "titre": "Table ronde",
                 "abstract": "Questions aux orateurs, remarques du public",
                 "session": "sDoc",
-                "ordre": 4,
-                "duree": 40
+                "ordre": 5,
+                "duree": 30
             }, {
                 "titre": "",
                 "session": "sRepas1",
@@ -304,48 +295,14 @@
                 "abstract": "Questions aux orateurs, remarques du public",
                 "session": "sFrac",
                 "ordre": 5,
-                "duree": 40
-            }, {
-                "titre": "",
-                "session": "sPause2",
-                "ordre": 2,
                 "duree": 30
-            }, {
-                "id": 7385,
-                "titre": "L’archivage des données foncières en Tunisie : réalité, enjeux et défis de la traçabilité numérique",
-                "speakers": [{
-                        "nom": "Fatma BEN AMOR",
-                        "affiliation": "Université de Paris 8, France"
-                    }, {
-                        "nom": "Abderrazak MKADMI",
-                        "affiliation": "Sultan Qaboos University, Oman"
-                    }
-
-                ],
-                "session": "sExplo1",
-                "ordre": 1,
-                "duree": 10
-            }, {
-                "id": 7376,
-                "titre": "Les frontières des sémiosphères numériques",
-                "speakers": [{
-                    "nom": "Federico BIGGIO",
-                    "affiliation": "Paragraphe - Université de Paris 8, France"
-                }],
-                "session": "sExplo1",
-                "ordre": 2,
-                "duree": 10
-            }, {
-                "id": 2994,
-                "titre": "Cartographier les frontières conceptuelles. Conception et usages de cribles pour enquêter sur les besoins de la médiation culturelle du théâtre",
-                "speakers": [{
-                    "nom": "Gabrielle GODIN",
-                    "affiliation": "Paragraphe - Université de Paris 8, France"
-                }],
-                "session": "sExplo1",
-                "ordre": 3,
-                "duree": 10
-            }, {
+                }, {
+                    "titre": "",
+                    "session": "sPause2",
+                    "ordre": 8,
+                    "duree": 20
+    
+                }, {
                 "id": 7776,
                 "titre": "Le Remote Viewing : « un objet non identifié » aux frontières du numérique",
                 "speakers": [{
@@ -389,7 +346,7 @@
                 "abstract": "Questions aux orateurs, remarques du public",
                 "session": "sExplo1",
                 "ordre": 8,
-                "duree": 20
+                "duree": 30
             }, {
                 "titre": "",
                 "session": "sAc1",
@@ -436,11 +393,6 @@
                 "ordre": 4,
                 "duree": 30
             }, {
-                "titre": "",
-                "session": "sPause4",
-                "ordre": 1,
-                "duree": 30
-            }, {
                 "id": 9450,
                 "titre": "Narrer et (re)penser l’ecosystème urbain: Perspectives et limites d’une recherche qualitative en co-design",
                 "speakers": [{
@@ -480,10 +432,26 @@
                 "ordre": 3,
                 "duree": 10
             }, {
+                "id": 7385,
+                "titre": "L’archivage des données foncières en Tunisie : réalité, enjeux et défis de la traçabilité numérique",
+                "speakers": [{
+                        "nom": "Fatma BEN AMOR",
+                        "affiliation": "Université de Paris 8, France"
+                    }, {
+                        "nom": "Abderrazak MKADMI",
+                        "affiliation": "Sultan Qaboos University, Oman"
+                    }
+
+                ],
+                "session": "sOrga",
+                "ordre": 4,
+                "duree": 10
+            }, {
+
                 "titre": "Table ronde",
                 "abstract": "Questions aux orateurs, remarques du public",
                 "session": "sOrga",
-                "ordre": 4,
+                "ordre": 5,
                 "duree": 30
             }, {
                 "titre": "",
@@ -507,26 +475,57 @@
                 "ordre": 2,
                 "duree": 20
             }, {
-                "id": 727,
-                "titre": "Quelles sont les fakes news, théories du complot et controverses qui ont circulé à travers les frontières numériques lors de la première vague de Covid-19 ?",
+                "id": 2222,
+                "titre": "Aux frontières de la science des ânes Vers une société générative",
                 "speakers": [{
-                    "nom": "Marc TANTI",
-                    "affiliation": "IMSIC-SESSTIM-CESPA - Université Aix-Marseille, France"
+                    "nom": "Franck RENUCCI",
+                    "affiliation": "Université de Toulon, France"
+                }, {
+                    "nom": "Michel DURAMPART",
+                    "affiliation": "Université de Toulon, France"
+                }, {
+                    "nom": "Sami BEN AMOR",
+                    "affiliation": "Université de Toulon, France"
                 }],
                 "session": "sVer",
                 "ordre": 3,
                 "duree": 20
             }, {
+                "id": 4372,
+                "titre": "Une expérience sans frontières est-elle crédible ?",
+                "speakers": [{
+                    "nom": "Olivier NANNIPIERI",
+                    "affiliation": "IMSIC - Université de Toulon, France"
+                }, {
+                    "nom": "Swann MARTINEZ",
+                    "affiliation": "XILAM, France"
+                }],
+                "session": "sVer",
+                "ordre": 4,
+                "duree": 20
+                }, {
+
+                "id": 2994,
+                "titre": "Cartographier les frontières conceptuelles. Conception et usages de cribles pour enquêter sur les besoins de la médiation culturelle du théâtre",
+                "speakers": [{
+                    "nom": "Gabrielle GODIN",
+                    "affiliation": "Paragraphe - Université de Paris 8, France"
+                }],
+                "session": "sVer",
+                "ordre": 5,
+                "duree": 10
+            }, {
+
                 "titre": "Table ronde",
                 "abstract": "Questions aux orateurs, remarques du public",
                 "session": "sVer",
-                "ordre": 4,
-                "duree": 40
+                "ordre": 6,
+                "duree": 30
             }, {
                 "titre": "",
                 "session": "sPause3",
                 "ordre": 5,
-                "duree": 30
+                "duree": 20
 
             }, {
                 "id": 2678,
@@ -574,51 +573,6 @@
                 "ordre": 4,
                 "duree": 20
             }, {
-                "id": 2222,
-                "titre": "Aux frontières de la science des ânes Vers une société générative",
-                "speakers": [{
-                    "nom": "Franck RENUCCI",
-                    "affiliation": "Université de Toulon, France"
-                }, {
-                    "nom": "Michel DURAMPART",
-                    "affiliation": "Université de Toulon, France"
-                }, {
-                    "nom": "Sami BEN AMOR",
-                    "affiliation": "Université de Toulon, France"
-                }],
-                "session": "sLim",
-                "ordre": 0,
-                "duree": 20
-            }, {
-                "id": 4372,
-                "titre": "Une expérience sans frontières est-elle crédible ?",
-                "speakers": [{
-                    "nom": "Olivier NANNIPIERI",
-                    "affiliation": "IMSIC - Université de Toulon, France"
-                }, {
-                    "nom": "Swann MARTINEZ",
-                    "affiliation": "XILAM, France"
-                }],
-                "session": "sLim",
-                "ordre": 1,
-                "duree": 20
-            }, {
-                "id": 1682,
-                "titre": "Vie privée en ligne : une frontière paradoxale ?",
-                "speakers": [{
-                    "nom": "Jean Marc MEUNIER",
-                    "affiliation": "Paragraphe - Université Paris 8, France"
-                }],
-                "session": "sLim",
-                "ordre": 2,
-                "duree": 20
-            }, {
-                "titre": "Table ronde",
-                "abstract": "Questions aux orateurs, remarques du public",
-                "session": "sLim",
-                "ordre": 4,
-                "duree": 30
-            }, {
                 "speakers": [
                     {
                         "nom": "Imad SALEH",
@@ -638,7 +592,7 @@
                 "titre": "Allocution de cloture du colloque",
                 "session": "sCloture",
                 "ordre": 1,
-                "duree": 20
+                "duree": 30
             }, {                
                 "titre": "",
                 "session": "sRepas3",
