@@ -115,16 +115,6 @@
             }],
             "ordre": 7
             }, {
-                "id": "sExplo1",
-                "titre": "Session : Frontières numériques in progress",
-                "jour": "j3",
-                "speakers": [{
-                    "nom": "Serge BOUCHARDON",
-                    "role": "Modérateur",
-                    "affiliation": "Université de technologie de Compiègne, France"
-                }],
-                "ordre": 2
-            }, {
             "id": "sCloture",
             "titre": "Cloture de la conférence",
             "jour": "j3",
@@ -173,7 +163,7 @@
                 "titre": "",
                 "session": "sPause1",
                 "ordre": 2,
-                "duree": 30
+                "duree": 20
             }, {
                 "id": 4361,
                 "speakers": [{
@@ -182,7 +172,7 @@
                 }],
                 "titre": "A la frontière du contexte dans les documents numériques.",
                 "session": "sDoc",
-                "ordre": 1,
+                "ordre": 4,
                 "duree": 10
             }, {
                 "id": 1682,
@@ -219,7 +209,7 @@
                 "titre": "Table ronde",
                 "abstract": "Questions aux orateurs, remarques du public",
                 "session": "sDoc",
-                "ordre": 5,
+                "ordre": 6,
                 "duree": 30
             }, {
                 "titre": "",
@@ -295,12 +285,12 @@
                 "abstract": "Questions aux orateurs, remarques du public",
                 "session": "sFrac",
                 "ordre": 5,
-                "duree": 30
+                "duree": 40
                 }, {
                     "titre": "",
                     "session": "sPause2",
                     "ordre": 8,
-                    "duree": 20
+                    "duree": 30
     
                 }, {
                 "id": 7776,
@@ -309,8 +299,8 @@
                     "nom": "Pierre-Michael MICALETTI",
                     "affiliation": "Paragraphe - Université de Paris 8, France"
                 }],
-                "session": "sExplo1",
-                "ordre": 4,
+                "session": "sDoc",
+                "ordre": 5,
                 "duree": 10
             }, {
                 "id": 4593,
@@ -325,7 +315,7 @@
                     "nom": "Adda ALI PACHA",
                     "affiliation": "Université des Sciences et de la Technologie d'Oran Mohamed-Boudiaf -USTOMB, Algérie"
                 }],
-                "session": "sExplo1",
+                "session": "sGen",
                 "ordre": 6,
                 "duree": 10
             }, {
@@ -338,15 +328,15 @@
                     "nom": "Imen AYARI",
                     "affiliation": "Ecole Nationale des Science de l'Informatique - Université de la Manouba, Tunisie"
                 }],
-                "session": "sExplo1",
+                "session": "sGen",
                 "ordre": 7,
                 "duree": 10                
             }, {
-                "titre": "Table ronde",
+                "titre": "Table ronde générale",
                 "abstract": "Questions aux orateurs, remarques du public",
-                "session": "sExplo1",
-                "ordre": 8,
-                "duree": 30
+                "session": "sCloture",
+                "ordre": 1,
+                "duree": 60
             }, {
                 "titre": "",
                 "session": "sAc1",
@@ -390,8 +380,8 @@
                 "titre": "Table ronde",
                 "abstract": "Questions aux orateurs, remarques du public",
                 "session": "sGen",
-                "ordre": 4,
-                "duree": 30
+                "ordre": 9,
+                "duree": 40
             }, {
                 "id": 9450,
                 "titre": "Narrer et (re)penser l’ecosystème urbain: Perspectives et limites d’une recherche qualitative en co-design",
@@ -457,7 +447,7 @@
                 "titre": "",
                 "session": "sRepas2",
                 "ordre": 1,
-                "duree": 120
+                "duree": 90
             }, {
                 "id": 988,
                 "titre": "Frontières du numérique et puissances du faux : le cas des hypertrucages (deepfakes)",
@@ -571,7 +561,7 @@
                 "abstract": "Questions aux orateurs, remarques du public",
                 "session": "sArtTech",
                 "ordre": 4,
-                "duree": 20
+                "duree": 30
             }, {
                 "speakers": [
                     {
@@ -591,7 +581,7 @@
                 ],
                 "titre": "Allocution de cloture du colloque",
                 "session": "sCloture",
-                "ordre": 1,
+                "ordre": 2,
                 "duree": 30
             }, {                
                 "titre": "",
