@@ -326,7 +326,7 @@
                     "affiliation": "Ecole Nationale des Science de l'Informatique - Université de la Manouba, Tunisie"
                 }, {
                     "nom": "Imen AYARI",
-                    "affiliation": "Ecole Nationale des Science de l'Informatique - Université de la Manouba, Tunisie"
+                    "affiliation": "Talan Innovation Factory, Talan Tunisia"
                 }],
                 "session": "sGen",
                 "ordre": 7,
@@ -457,9 +457,6 @@
                 }, {
                     "nom": "Fabien RICHERT",
                     "affiliation": "UQAM, Canada"
-                }, {
-                    "nom": "Jean-marc LARRUE",
-                    "affiliation": "Université de Montréal, Canada"
                 }],
                 "session": "sVer",
                 "ordre": 2,
@@ -487,8 +484,8 @@
                     "nom": "Olivier NANNIPIERI",
                     "affiliation": "IMSIC - Université de Toulon, France"
                 }, {
-                    "nom": "Swann MARTINEZ",
-                    "affiliation": "XILAM, France"
+                    "nom": "Isabelle Muratore",
+                    "affiliation": "CERGAM, Université de Toulon, France"
                 }],
                 "session": "sVer",
                 "ordre": 4,
