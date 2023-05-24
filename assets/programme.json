@@ -103,7 +103,7 @@
                 "affiliation": "Laboratoire Paragraphe - Université Paris 8, France",
                 "role": "Modérateur"
             }],
-            "ordre": 5
+            "ordre": 6
         }, {
             "id": "sArtTech",
             "titre": "Session : Frontières numériques entre arts & technologies",
@@ -316,7 +316,7 @@
                     "affiliation": "Université des Sciences et de la Technologie d'Oran Mohamed-Boudiaf -USTOMB, Algérie"
                 }],
                 "session": "sGen",
-                "ordre": 6,
+                "ordre": 7,
                 "duree": 10
             }, {
                 "id": 2077,
@@ -329,7 +329,7 @@
                     "affiliation": "Talan Innovation Factory, Talan Tunisia"
                 }],
                 "session": "sGen",
-                "ordre": 7,
+                "ordre": 8,
                 "duree": 10                
             }, {
                 "titre": "Table ronde générale",
@@ -372,15 +372,27 @@
                     "nom": "Swann Martinez",
                     "affiliation": "INREV - Université Paris 8, France"
                 }],
-
                 "session": "sGen",
                 "ordre": 3,
                 "duree": 20
+                }, {
+                    "id": 2000,
+                    "titre": "Frontières en mouvement : IA générative comme vecteur de changement dans l’éducation",
+                    "speakers": [{
+                        "nom": "Ioan ROXIN",
+                        "affiliation": "ELLIADD, Université de Franche-Comté, France"
+                    }, {
+                        "nom": "Federico TAJARIOL",
+                        "affiliation": "ELLIADD, Université de Franche-Comté, France"
+                    }],
+                    "session": "sGen",
+                    "ordre": 4,
+                    "duree": 20
             }, {
                 "titre": "Table ronde",
                 "abstract": "Questions aux orateurs, remarques du public",
                 "session": "sGen",
-                "ordre": 9,
+                "ordre": 99,
                 "duree": 40
             }, {
                 "id": 9450,
