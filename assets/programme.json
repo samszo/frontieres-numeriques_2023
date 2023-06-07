@@ -44,11 +44,6 @@
             "titre": "Repas",
             "jour": "j1",
             "ordre": 4
-        }, {
-            "id": "sPause2",
-            "titre": "Pause Café",
-            "jour": "j1",
-            "ordre": 6
         },  {
                 "id": "sFrac",
             "titre": "Session : Frontières numériques : fractures et conflits",
@@ -264,34 +259,7 @@
                 ],
                 "session": "sDoc",
                 "ordre": 5,
-                "duree": 20
-            }, {
-                "id": 1111,
-                "titre": "La guerre cognitive : nouvelle frontière de conflits",
-                "speakers": [{
-                        "nom": "Benoît LEBLANC",
-                        "affiliation": "Ecole Nationale Sup. de Cognitique - Bordeaux INP"
-                    },
-                    {
-                        "nom": "Franck RENUCCI",
-                        "affiliation": "Université de Toulon, France"
-                    }
-                ],
-                "session": "sFrac",
-                "ordre": 4,
-                "duree": 20
-            }, {
-                "titre": "Table ronde",
-                "abstract": "Questions aux orateurs, remarques du public",
-                "session": "sFrac",
-                "ordre": 5,
-                "duree": 40
-                }, {
-                    "titre": "",
-                    "session": "sPause2",
-                    "ordre": 8,
-                    "duree": 30
-    
+                "duree": 20    
                 }, {
                 "id": 7776,
                 "titre": "Le Remote Viewing : « un objet non identifié » aux frontières du numérique",
