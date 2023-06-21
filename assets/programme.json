@@ -165,6 +165,7 @@
                     "nom": "Stephane CARO",
                     "affiliation": "MICA UR 4426 - Axe E3D, Université Bordeaux Montaigne, France"
                 }],
+                "pdf":"presentations/FrontieresNumerique-SC.pdf",
                 "titre": "A la frontière du contexte dans les documents numériques.",
                 "session": "sDoc",
                 "ordre": 4,
@@ -176,6 +177,7 @@
                     "nom": "Jean Marc MEUNIER",
                     "affiliation": "Paragraphe - Université Paris 8, France"
                 }],
+                "pdf":"presentations/FrontieresNumerique-JMM.pdf",
                 "session": "sDoc",
                 "ordre": 2,
                 "duree": 20
@@ -186,6 +188,7 @@
                     "nom": "Alexandre JOUX",
                     "affiliation": "Université Aix-Marseille, France"
                 }],
+                "pdf":"presentations/FrontieresNumerique-AJ.pdf",
                 "session": "sDoc",
                 "ordre": 3,
                 "duree": 20                    
@@ -196,6 +199,7 @@
                     "nom": "Federico BIGGIO",
                     "affiliation": "Paragraphe - Université de Paris 8, France"
                 }],
+                "pdf":"presentations/FrontieresNumerique-FB.pdf",
                 "session": "sDoc",
                 "ordre": 4,
                 "duree": 10
@@ -223,6 +227,7 @@
                         "affiliation": "ICHEC Brussels Management School, Belgique"
                     }
                 ],
+                "pdf":"presentations/FrontieresNumerique-IC.pdf",
                 "session": "sVer",
                 "ordre": 5,
                 "duree": 20
@@ -238,6 +243,7 @@
                         "affiliation": "Université Aix-Marseille, France"
                     }
                 ],
+                "pdf":"presentations/FrontieresNumerique-SL.pdf",
                 "session": "sFrac",
                 "ordre": 2,
                 "duree": 20
@@ -257,6 +263,7 @@
                         "affiliation": "Paragraphe - Université de Paris 8, France"
                     }
                 ],
+                "pdf":"presentations/FrontieresNumerique-AY.pdf",
                 "session": "sDoc",
                 "ordre": 5,
                 "duree": 20    
@@ -267,6 +274,7 @@
                     "nom": "Pierre-Michael MICALETTI",
                     "affiliation": "Paragraphe - Université de Paris 8, France"
                 }],
+                "pdf":"presentations/FrontieresNumerique-PMM.pdf",
                 "session": "sDoc",
                 "ordre": 6,
                 "duree": 10
@@ -283,6 +291,7 @@
                     "nom": "Adda ALI PACHA",
                     "affiliation": "Université des Sciences et de la Technologie d'Oran Mohamed-Boudiaf -USTOMB, Algérie"
                 }],
+                "pdf":"presentations/FrontieresNumerique-MeB.pdf",
                 "session": "sGen",
                 "ordre": 7,
                 "duree": 10
@@ -303,7 +312,7 @@
                 "titre": "Table ronde générale",
                 "abstract": "Questions aux orateurs, remarques du public",
                 "session": "sCloture",
-                "ordre": 1,
+                "ordre": 2,
                 "duree": 60
             }, {
                 "titre": "",
@@ -317,6 +326,7 @@
                     "nom": "Georges GAGNERE",
                     "affiliation": "Université Paris 8, France"
                 }],
+                "pdf":"presentations/FrontieresNumerique-AKN.pdf",
                 "session": "sGen",
                 "ordre": 1,
                 "duree": 20
@@ -327,6 +337,7 @@
                     "nom": "Serge BOUCHARDON",
                     "affiliation": "Université de technologie de Compiègne, France"
                 }],
+                "pdf":"presentations/FrontieresNumerique-SB.pdf",
                 "session": "sGen",
                 "ordre": 2,
                 "duree": 20
@@ -340,6 +351,7 @@
                     "nom": "Swann Martinez",
                     "affiliation": "INREV - Université Paris 8, France"
                 }],
+                "pdf":"presentations/FrontieresNumerique-CYC.pdf",
                 "session": "sGen",
                 "ordre": 3,
                 "duree": 20
@@ -382,6 +394,7 @@
                     "nom": "Marie-Pierre FOURQUET ",
                     "affiliation": "Université Aix-Marseille, France"
                 }],
+                "pdf":"presentations/FrontieresNumerique-AB.pdf",
                 "session": "sGen",
                 "ordre": 6,
                 "duree": 20
@@ -398,6 +411,7 @@
                     "nom": "Karim FRAOUA",
                     "affiliation": "Université Gustave Eiffel, France"
                 }],
+                "pdf":"presentations/FrontieresNumerique-JG.pdf",
                 "session": "sOrga",
                 "ordre": 3,
                 "duree": 10
@@ -413,6 +427,7 @@
                     }
 
                 ],
+                "pdf":"presentations/FrontieresNumerique-AM.pdf",
                 "session": "sOrga",
                 "ordre": 4,
                 "duree": 10
@@ -438,6 +453,7 @@
                     "nom": "Fabien RICHERT",
                     "affiliation": "UQAM, Canada"
                 }],
+                "pdf":"presentations/FrontieresNumerique-FR.pdf",
                 "session": "sVer",
                 "ordre": 2,
                 "duree": 20
@@ -454,6 +470,7 @@
                     "nom": "Sami BEN AMOR",
                     "affiliation": "Université de Toulon, France"
                 }],
+                "pdf":"presentations/FrontieresNumerique-SBA.pdf",
                 "session": "sVer",
                 "ordre": 3,
                 "duree": 20
@@ -467,6 +484,7 @@
                     "nom": "Isabelle MURATORE",
                     "affiliation": "CERGAM, Université de Toulon, France"
                 }],
+                "pdf":"presentations/FrontieresNumerique-ON.pdf",
                 "session": "sVer",
                 "ordre": 4,
                 "duree": 20
@@ -478,6 +496,7 @@
                     "nom": "Gabrielle GODIN",
                     "affiliation": "Paragraphe - Université de Paris 8, France"
                 }],
+                "pdf":"presentations/FrontieresNumerique-GG.pdf",
                 "session": "sVer",
                 "ordre": 6,
                 "duree": 10
@@ -504,6 +523,7 @@
                     "nom": "Alain LIORET",
                     "affiliation": "Université Paris 8, France"
                 }],
+                "pdf":"presentations/FrontieresNumerique-LL.pdf",
                 "session": "sArtTech",
                 "ordre": 1,
                 "duree": 10
@@ -515,6 +535,7 @@
                     "affiliation": "Ecole Supérieure Des Sciences et Technologies du Design, Université de la Manouba, Tunisie"
                 }],
                 "session": "sArtTech",
+                "pdf":"presentations/FrontieresNumerique-SK.pdf",
                 "ordre": 2,
                 "duree": 10
             }, {
@@ -539,7 +560,18 @@
                 "session": "sArtTech",
                 "ordre": 4,
                 "duree": 30
-            }, {
+                }, {
+                    "id": 9999,
+                    "titre": "Perspectives de recherche sur les frontières numériques",
+                    "speakers": [{
+                        "nom": "Sylvie LEULEU MERVIEL",
+                        "affiliation": "DeVisu, INSA Hauts-de-France, Arenberg Creative Mine, Valenciennes, France"
+                    }],
+                    "pdf":"presentations/FrontieresNumerique-SLM.pdf",
+                    "session": "sCloture",
+                    "ordre": 1,
+                    "duree": 20
+                }, {
                 "speakers": [
                     {
                         "nom": "Imad SALEH",
@@ -558,7 +590,7 @@
                 ],
                 "titre": "Allocution de cloture du colloque",
                 "session": "sCloture",
-                "ordre": 2,
+                "ordre": 3,
                 "duree": 30
             }, {                
                 "titre": "",

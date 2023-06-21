@@ -12,6 +12,9 @@
     <meta name="KeyWords" content="Conference, frontières, numériques, Paris 8, Laboratoire Paragraphe">
     <title>5eme éd. Colloque Frontières numériques - 2023 - Programme</title>
     <script src="../assets/d3.min.js"></script>
+    <script src="../assets/pdf.min.js"></script>
+    
+
 </head>
     <div class="banner">
         <img src="../assets/fn2023-banner.png" alt="Conference Frontieres-numeriques 2023 Banner">
@@ -133,6 +136,11 @@ function dateDiff(date1, date2){
             });
             return html;
         };
+        formePdf = (i)=>{
+            if(!i.pdf)return ''; 
+            let html = '<embed src="'+i.pdf+'" width="800" height="500" type="application/pdf"/>';
+            return html;
+        };
 
 
 
@@ -206,6 +214,10 @@ function dateDiff(date1, date2){
                     </tr>
                     <tr>
                         <td class="abstract">${s.abstract?s.abstract:''}</td>
+                    </tr>
+                    <tr>
+                        <td class="date" rowspan="3"></td>
+                        <td class="pdf">${formePdf(s)}</td>
                     </tr>
                 </table>`;
                 return html;
