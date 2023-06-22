@@ -113,6 +113,11 @@ td.title-special{padding: 4px 12px 4px 4px; width: 90%; vertical-align:top; font
 td.speaker{padding: 4px 12px 4px 4px; font-style: italic; font-size:1em; max-height:999999px}
 td.abstract{padding: 4px 12px 12px 4px; font-size:1em; max-height:999999px}
 td.abstract img{display: block; margin: 4px auto 8px auto}
+td.pdf{padding: 4px 12px 4px 4px; max-height:999999px}
+embed{
+    width: 100%;
+    min-height: 400px;
+}
 table.plenary{padding-top: 8px; background: #fdff8b;
     margin: 2px auto 3px auto;
 }
