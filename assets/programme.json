@@ -381,6 +381,7 @@
                     "nom": "Claire NOY",
                     "affiliation": "Lerass Ceric - Université Paul Valéry Montpellier 3, France"
                 }],
+                "pdf":"presentations/FrontieresNumerique-CN.pdf",
                 "session": "sOrga",
                 "ordre": 1,
                 "duree": 20
@@ -461,13 +462,13 @@
                 "id": 2222,
                 "titre": "Aux frontières de la science des ânes Vers une société générative",
                 "speakers": [{
-                    "nom": "Franck RENUCCI",
+                    "nom": "Sami BEN AMOR",
                     "affiliation": "Université de Toulon, France"
                 }, {
                     "nom": "Michel DURAMPART",
                     "affiliation": "Université de Toulon, France"
                 }, {
-                    "nom": "Sami BEN AMOR",
+                    "nom": "Franck RENUCCI",
                     "affiliation": "Université de Toulon, France"
                 }],
                 "pdf":"presentations/FrontieresNumerique-SBA.pdf",
